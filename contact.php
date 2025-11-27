@@ -12,7 +12,7 @@ if(!isset( $_POST['name']) || !isset($_POST['email']) || !isset($_POST['message'
 	$headers = 'From: '.$email_from."\r\n" .
    'Reply-To: '.$email_from."\r\n" ;
 
-	mail('contact@xgenious.com', $email_subject, $email_message, $headers);
+	mail('alejomanrique2691@gmail.com', $email_subject, $email_message, $headers);
 	echo "Thanks for contacting us.";
 	die();
 ?>
